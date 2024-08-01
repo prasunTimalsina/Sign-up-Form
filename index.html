@@ -16,14 +16,55 @@
     </div>
     <div class="right-side">
       <div class="heading">
-        <h3>
+        <h2>
           This is not a real online service! You know you need something like
           this in your life to help you realize your deepest dreams. Sign up now
           to get started.
         </h3>
-        <h3>You know you want to.</h3>
+        <p>You <em>know</em> you want to.</p>
       </div>
-      <form action="" method="get"></form>
+      <div class="cta">
+        <h2>Let's do this!</h2>
+        <p>The required fiel are marked with *</p>
+        <form action="" method="get" id="a-form">
+          <div class="form-row">
+            <div class="input-container">
+              <label for="fname">FIRST NAME</label>
+              <input type="text" id="fname" name="fname" />
+            </div>
+            <div class="input-container">
+              <label for="lname">LAST NAME</label>
+              <input type="text" id="lname" name="lname" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input-container">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="input-container">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="text" id="phone" name="phnum" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input-container">
+              <label for="pwd">PASSWORD</label>
+              <input type="password" id="pwd" name="pwd" />
+            </div>
+            <div class="input-container">
+              <label for="cpwd"> CONFIRM PASSWORD</label>
+              <input type="password" id="cpwd" name="cpwd" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="lower-part">
+        <button type="submit" form="a-form">Create Account</button>
+        <p>Already have an account? <span>Log in</span></p>
+      </div>
     </div>
   </body>
 </html>
